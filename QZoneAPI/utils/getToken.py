@@ -1,3 +1,4 @@
+# 计算必要参数
 def getTk(skey):
     hash =  5381
     for char in skey:
