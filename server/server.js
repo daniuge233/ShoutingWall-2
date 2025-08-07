@@ -4,7 +4,7 @@ const fs = require('fs');
 const path = require('path');
 const User = require('./User');
 
-const websocketURL = ""
+const websocketURL = "";
 const token = "";
 
 const app = express();

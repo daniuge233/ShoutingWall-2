@@ -5,6 +5,7 @@ import utils.post
 import utils.delete
 import utils.getToken
 
+# 心跳机制，保持QQ空间登陆
 def Heartbeat(uin, cookie):
     p_skey = re.search(r'\bp_skey=([^;]+)', cookie)
     p_skey = p_skey.group(1)
